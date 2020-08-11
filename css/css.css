@@ -1,0 +1,121 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+	font-family: "badaboom";
+	src: url(../fonts/BADABB__.TTF);
+}
+
+
+body {
+	background: url("../img/fondo-3.jpg") fixed no-repeat;
+	background-size: 100% 120%;
+	font-size: 5em;
+}
+
+
+.stavivo {
+	cursor: url(../img/puntomira.png), pointer;
+	opacity: 1;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: all 4s;
+}
+
+.lohanmatao {
+	opacity: 0;
+	transition: all 0.5s;
+	transition-delay: 0.3s;
+}
+
+#findetiempo {
+	display: none;
+	background: rgba(255, 255, 255, 0.8);
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	font-family: "badaboom";
+	font-size: 1em;
+	color: #f7db00;
+	text-shadow: #f70000 1px 1px 5px;
+	padding: 20% 20%;
+	z-index: 99999;
+}
+
+
+
+#tiempo {
+	font-family: "badaboom";
+	font-size: 0.6em;
+	color: #f7db00;
+	text-shadow: #f70000 1px 1px 5px;
+	margin: 0 0.3em;
+}
+
+
+#contenedorbarratiempo {
+	position: absolute;
+	bottom: 1em;
+	margin: 0 0.3em;
+	width: 52px;
+	border: 1px solid #F90;
+	height: 400px;
+}
+
+#barratiempo {
+	position: absolute;
+	bottom: 0;
+	width: 50px;
+	background: linear-gradient(to top, rgba(255, 0, 0, 1), rgba(0, 153, 0, 1));
+
+}
+
+#mosquitoFin {
+	cursor: url(../img/puntomira.png), pointer;
+	width: 300px;
+	height: 200px;
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	transition: all 4s;
+}
+
+#mosquitoFin img {
+	width: 100%;
+}
+
+
+#puntos {
+	font-family: "badaboom";
+	font-size: 0.6em;
+	color: #f7db00;
+	text-shadow: #f70000 1px 1px 5px;
+	margin: 0 0.3em;
+}
+
+.boton {
+	font-family: "badaboom";
+	font-size: 0.3em;
+	color: #fb0000;
+	text-shadow: #bdf700 1px 1px 5px;
+	padding: 15px;
+	background: #51a513;
+	width: max-content;
+	border-radius: 15px;
+	margin: 2em;
+}
+
+
+#nivel {
+	position: absolute;
+	font-family: "badaboom";
+	font-size: 0.6em;
+	color: #f7db00;
+	text-shadow: #f70000 1px 1px 5px;
+	top: 10px;
+	right: 10px;
+}
